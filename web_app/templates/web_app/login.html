@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+</head>
+<body>
+  <form action="" method="post">
+  {% csrf_token %}
+  <label for="">Username</label>
+  <input type="text" name="username"/>
+  <label for="">Password</label>
+  <input type="password" name="password"/>
+  <input type="submit" value="Login">
+  </form>
+    
+</body>
